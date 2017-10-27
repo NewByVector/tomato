@@ -18,7 +18,7 @@ html,body{
 	height: 100%;
 }
 body{
-	background-image: url("../img/main.jpg");
+	background-image: url("main.jpg");
 }
 .content{
 	width: 800px;
