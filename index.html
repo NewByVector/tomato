@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vector-番茄工作法</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="content">
+		<div class="clock">
+			00:00:00
+		</div>
+		<div class="control-group">
+			<label>工作内容</label>
+			<input type="text" class="work-content" required>
+		</div>
+		<div class="control-group">
+			<label>工作时长</label>
+			<input type="text" class="work-timer" placeholder="min">
+		</div>
+		<div class="control-group">
+			<label>休息时长</label>
+			<input type="text" class="rest-timer" placeholder="min">
+		</div>
+		<div class="button-group">
+			<button type="button" class="work-btn">开始工作</button>
+			<button type="button" class="stop-btn">停止</button>
+		</div>
+		<ul class="records">
+		</ul>
+		<div class="clear">
+			<button type="button" class="clear-btn">清除工作记录</button>
+		</div>
+	</div>
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
